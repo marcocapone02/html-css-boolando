@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}  
+
+header .topbar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #FF6900;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.65);
+}
+
+.topbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.topbar ul li a{
+  font-weight: bold;
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.topbar .logo a img{
+  width: 134px;
+
+}
