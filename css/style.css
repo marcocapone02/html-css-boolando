@@ -13,6 +13,7 @@ header .topbar{
   justify-content:space-between;
   align-items: center;
   height: 70px;
+  padding: 0 265px;
   background-color: #FF6900;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.65);
 }
@@ -23,15 +24,24 @@ header .topbar{
   list-style: none;
 }
 
-.topbar ul li a{
+.topbar .category ul li a{
   font-weight: bold;
   margin: 0 5px;
   text-decoration: none;
   color: white;
-  
 }
 
 .topbar .logo a img{
   width: 134px;
-
 }
+
+.topbar .buttons ul li{
+}
+
+.topbar .buttons ul li a img{
+  width: 15px;
+  margin: 0 5px;
+  text-decoration: none;
+  filter: invert();
+}
+
